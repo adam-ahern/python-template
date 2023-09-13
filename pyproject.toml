@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "my_project"
+version = "0.1.0"
+description = "My awesome project"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+black = "^21.9b0"
+isort = "^5.9.3"
+flake8 = "^3.9.2"
+pre-commit = "^2.15.0"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
